@@ -12,8 +12,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Netflix Clone</h1>
-
+      <h1>Netflix Clone DevOps Project 🚀</h1>
       <div className="movie-container">
         {movies.map((movie, index) => (
           <div className="movie-card" key={index}>
