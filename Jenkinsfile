@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'YOUR_GITHUB_REPO'
+                git 'https://github.com/GPrashanth-009/netflix-clone.git'
             }
         }
 
